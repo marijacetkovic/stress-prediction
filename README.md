@@ -1,12 +1,14 @@
-# Stress Detection Dataset
+# Stress Detection Prediction Model
 
 ## Overview
 
-The Stress Detection Dataset provides a collection of posts from various subreddits related to mental health. Each entry in the dataset includes information such as subreddit, post ID, sentence range, text, label, confidence, and social timestamp. The dataset is labeled with binary values, where 0 indicates no stress and 1 indicates stress.
+This project aims to develop a machine learning model for predicting stress levels in text data using the Stress Detection Dataset. It serves also as a project assignment for the course Introduction to Data Mining and Machine Learning at FAMNIT.
 
-Stress detection presents a significant challenge in natural language processing and machine learning due to the diverse range of words and expressions people use to convey their mental states. This dataset serves as a valuable resource for training machine learning models to identify signs of psychological stress in text data.
+## Dataset
 
-## Dataset Details
+The Stress Detection Dataset provides a collection of posts from various subreddits related to mental health. Each entry in the dataset includes information such as subreddit, post ID, sentence range, text, label (indicating stress (1) or no stress (0)), confidence, and social timestamp. 
+
+### Dataset Details
 
 - **File:** Stress.csv
 - **Columns:**
@@ -18,12 +20,17 @@ Stress detection presents a significant challenge in natural language processing
   - `confidence`: Confidence score associated with the label
   - `social_timestamp`: Timestamp of the post
 
+## Project Components
 
-## Tags
+1. **Data Preprocessing:** Performing data cleaning and preprocessing (removing punctuation, stopwords, lemmatizing using Spacy).
+2. **Data Visualization:** A little bit of visualization to provide context for the dataset.
+3. **Text Representation:** Exploring different text representations like Bag of Words, Bag of N-Grams, and Gensim Glove.
+4. **Model Exploration:** Explore different machine learning algorithms including Naive Bayes and LSTM.
+5. **Model Evaluation:** Evaluating the models and measuring accuracy.
 
-- Naive Bayes
-- LSTM
-- Bag of Words
-- Ngrams
-- Gensim Word2Vec
+## Possible Future Improvements 
+I would love to explore the 'confidence' column of the dataset as it potentially influences the 'weight' of the users' posts, but for simplicity I decided not to tackle it yet. Also I would find great interest in exploring Transformer architecture for an NLP task, let it be this one or some other future project.
 
+## Contribution Guidelines
+
+Contributions to the project are welcome! If you have any suggestions, bug fixes, or feature enhancements, please feel free to submit a pull request or open an issue on the GitHub repository.
