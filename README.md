@@ -1,12 +1,12 @@
-# NLP Text Classification: Stress Detection
+# NLP Text Classification: Stress Prediction
 
 ## Overview
 
-This project aims to develop a machine learning model for predicting stress levels in text data using the Stress Detection Dataset. It serves also as a project assignment for the course Introduction to Data Mining and Machine Learning at FAMNIT.
+This project aims to develop a machine learning model for predicting stress levels in text data using the Stress Prediction Dataset. It serves also as a project assignment for the course Introduction to Data Mining and Machine Learning at FAMNIT.
 
 ## Dataset
 
-The Stress Detection Dataset provides a collection of posts from various subreddits related to mental health. Each entry in the dataset includes information such as subreddit, post ID, sentence range, text, label (indicating stress (1) or no stress (0)), confidence, and social timestamp. 
+The Stress Prediction Dataset provides a collection of posts from various subreddits related to mental health. Each entry in the dataset includes information such as subreddit, post ID, sentence range, text, label (indicating stress (1) or no stress (0)), confidence, and social timestamp. 
 
 ### Dataset Details
 
