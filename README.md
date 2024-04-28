@@ -1,4 +1,4 @@
-# Stress Detection Prediction Model
+# NLP Text Classification: Stress Detection
 
 ## Overview
 
